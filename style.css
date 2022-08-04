@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.background {
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .one {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 30px;
+    left: 350px;
+  }
+  
+  .two {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 30px;
+    right: 350px;
+  }
+  
+  .three {
+    width: 1000px;
+    height: 1000px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 30px;
+    right: 350px;
+  }
